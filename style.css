@@ -1,0 +1,72 @@
+header {
+	width: 		100%;
+	height: 	15vw;
+	background: moccasin;
+}
+header img{
+	width:  		15vw;
+	margin: 		2.5vw 5vw;
+	vertical-align: top;
+}
+h1{
+	font-size: 		7vw;
+	letter-spacing: 4px;
+	text-align: 	center;
+	display: 		inline-block;
+	vertical-align: top;
+	width: 			60vw;
+	margin-top:		3vw;
+	color:			tomato;
+}
+
+
+.book {
+	display: inline-block;
+	border: 1px solid maroon;
+	cursor: pointer;
+	height: 400px;
+	padding: 5px;
+	margin: 10px;
+}
+.book:hover b {
+	font-size: 5vw;	
+	
+}
+.book:hover img {
+	width: 25vw;
+}
+
+.book b {
+
+	vertical-align: middle;
+	font-size: 6vw;
+	font-variant: small-caps;
+	text-align: center;
+	width: 49vw;
+	
+	transition: font-size 0.3s;
+}
+.book span{ 
+	color:grey;
+	text-align: center;
+	vertical-align: middle;
+
+}
+.book img {
+	display: block;
+	vertical-align: middle;
+	max-width: 190px;
+	max-height: 220px;
+	margin: auto;
+	transition: width 0.3s;
+}
+
+footer {
+	width: 		100%;
+	height: 	10vw;
+	background: gray;
+	font-size: 3vw;
+	color: white;
+	text-align: center;
+}
+
