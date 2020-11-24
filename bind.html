@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bind</title>
+</head>
+<body>
+<button id="btn">Press</button>
+</body>
+<script>
+    class ClickHandler {
+        constructor() {
+            this.cnt = 1;
+            console.log('ctr'+this.cnt)
+            this.handler=this.handler.bind(this);
+        }
+
+        handler() {
+            console.log(this.cnt++);
+
+        }
+    }
+    var clicker=new ClickHandler();
+    btn.onclick=clicker.handler;
+</script>
+</html>

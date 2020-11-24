@@ -1,0 +1,8 @@
+{
+"host": "hosting2.step.edu",
+"port": "3306",
+"user": "c64_dbuser",
+"password": "c64_dbpass",
+"database": "c64_dbname",
+"charset": "utf8"
+}
